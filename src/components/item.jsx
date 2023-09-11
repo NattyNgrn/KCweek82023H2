@@ -4,6 +4,10 @@ const Item = ({ item }) => {
         {!item.text ? null : (<div className="singleitem">{item.text}</div>)}
         </>
     )
-  };
-  
-  export default Item;
+};
+
+const item = {text: "hello"};
+
+<Item item={item} />
+
+export default Item;

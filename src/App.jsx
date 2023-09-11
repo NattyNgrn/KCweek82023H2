@@ -1,4 +1,4 @@
-import Header from './components/header';
+//import Header from './components/header';
 import Form from './components/form';
 import Item from './components/item';
 import { useState } from "react";
@@ -21,6 +21,9 @@ function App() {
       <Form addItem={addItem} />
     </div>
   );
+  return (
+    <div>Hello world</div>
+  )
 }
 
 export default App
